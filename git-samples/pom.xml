@@ -11,5 +11,20 @@
 
     <artifactId>git-samples</artifactId>
 
+    <repositories>
+        <repository>
+            <id>bintray-americanexpress-maven</id>
+            <url>https://dl.bintray.com/americanexpress/maven</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.aexp.nodes.graphql</groupId>
+            <artifactId>nodes</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
